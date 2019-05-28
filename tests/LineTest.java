@@ -11,4 +11,12 @@ public class LineTest {
     public void test2() {
         assertEquals("NO", Line.Tickets(new int []{25, 100}));
     }
+    @Test
+    public void test3() {
+        assertEquals("NO", Line.Tickets(new int []{-25, 25, 25, 50, 100}));
+    }
+    @Test
+    public void test4(){
+        assertEquals("NO", Line.Tickets(new int []{25,25,25,100,25,50,25,100,25,50,25,100,25,50,25,100}));
+    }
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7caa32bb-f434-4f0b-b293-f7c3162b1da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codewars/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VasyaClerk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/LineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,25 +14,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -41,14 +34,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/LineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="102" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,14 +68,14 @@
         <option value="$PROJECT_DIR$/tests/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/VasyaClerk.java" />
-        <option value="$PROJECT_DIR$/tests/LineTest.java" />
         <option value="$PROJECT_DIR$/src/Line.java" />
+        <option value="$PROJECT_DIR$/tests/LineTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="957" />
-    <option name="width" value="970" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="896" />
+    <option name="width" value="1031" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -89,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +105,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -125,7 +120,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -150,7 +145,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.testSomeUnderscoreLowerStart">
+  <component name="RunManager" selected="JUnit.LineTest">
+    <configuration name="LineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Codewars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LineTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Codewars" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,20 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testSomeUnderscoreLowerStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Codewars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTest" />
-      <option name="METHOD_NAME" value="testSomeUnderscoreLowerStart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.testSomeUnderscoreLowerStart" />
+        <item itemvalue="JUnit.LineTest" />
+        <item itemvalue="JUnit.LineTest.test3" />
         <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.LineTest.test1" />
+        <item itemvalue="JUnit.LineTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -191,35 +218,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 33m 49s.xml">
+    <history-entry file="LineTest - 2019.05.28 at 10h 01m 12s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest - 2019.05.28 at 10h 01m 48s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test3 - 2019.05.28 at 10h 02m 01s.xml">
+      <configuration name="LineTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest_test3 - 2019.05.28 at 10h 02m 35s.xml">
+      <configuration name="LineTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2019.05.28 at 10h 04m 58s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testSomeUnderscoreLowerStart - 2019.05.27 at 10h 33m 53s.xml">
-      <configuration name="SolutionTest.testSomeUnderscoreLowerStart" configurationId="JUnit" />
+    <history-entry file="LineTest - 2019.05.28 at 10h 05m 05s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 37m 06s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="LineTest - 2019.05.28 at 10h 07m 25s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 37m 12s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="LineTest_test3 - 2019.05.28 at 10h 09m 33s.xml">
+      <configuration name="LineTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 38m 47s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
+    <history-entry file="LineTest_test3 - 2019.05.28 at 10h 10m 06s.xml">
+      <configuration name="LineTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 39m 12s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_testSomeUnderscoreLowerStart - 2019.05.27 at 10h 39m 37s.xml">
-      <configuration name="SolutionTest.testSomeUnderscoreLowerStart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 44m 32s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2019.05.27 at 10h 46m 35s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_testSomeUnderscoreLowerStart - 2019.05.27 at 10h 46m 54s.xml">
-      <configuration name="SolutionTest.testSomeUnderscoreLowerStart" configurationId="JUnit" />
+    <history-entry file="LineTest - 2019.05.28 at 10h 10m 11s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -232,36 +259,58 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="957" y="0" width="970" height="1047" extended-state="0" />
+    <frame x="896" y="0" width="1031" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19979402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32932165" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32932165" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19584244" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36870897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3369803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/SolutionTest.java</url>
+          <line>12</line>
+          <properties class="SolutionTest" method="testSomeDashLowerStart">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/LineTest.java</url>
+          <line>14</line>
+          <properties class="LineTest" method="test3">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
@@ -299,6 +348,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vasya - Clerk/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/VasyaClerk.java" />
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -306,24 +378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vasya - Clerk/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VasyaClerk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -332,29 +390,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/LineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="102" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
